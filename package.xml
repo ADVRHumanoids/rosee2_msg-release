@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<package format="3">
+    <name>rosee_msg</name>
+    <version>0.0.2</version>
+    <description>The rosee_msg package for ros2 version</description>
+
+    <maintainer email="luca.muratore@iit.it">Luca Muratore</maintainer>
+    <maintainer email="davide.torielli@iit.it">Davide Torielli</maintainer>
+    <maintainer email="liana.bertoni@iit.it">Liana Bertoni</maintainer>
+    <license>Apache License 2.0</license>
+
+    <url type="website">https://advrhumanoids.github.io/ROSEndEffectorDocs/</url>
+    <url type="repository">https://github.com/ADVRHumanoids/rosee_msg/tree/ros2</url>
+    <url type="bugtracker">https://github.com/ADVRHumanoids/rosee_msg/issues/</url>
+
+    <author>Davide Torielli</author>
+    <author>Liana Bertoni</author>
+    <author>Luca Muratore</author>
+    <author email="davide.torielli@iit.it">Davide Torielli</author>
+    <author email="liana.bertoni@iit.it">Liana Bertoni</author>
+    <author email="luca.muratore@iit.it">Luca Muratore</author>
+    
+    <buildtool_depend>ament_cmake</buildtool_depend>
+    <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+    <exec_depend>rosidl_default_runtime</exec_depend>
+    
+    <member_of_group>rosidl_interface_packages</member_of_group>
+
+    <depend>builtin_interfaces</depend>
+    <depend>example_interfaces</depend>
+    <depend>std_srvs</depend>
+    <depend>action_msgs</depend>
+    <depend>geometry_msgs</depend>
+    <depend>actionlib_msgs</depend>
+
+    <!-- The export tag contains other, unspecified, tags -->
+    <!-- The export tag contains other, unspecified, tags -->
+    <export>
+        <build_type>ament_cmake</build_type>
+    </export>
+</package>
